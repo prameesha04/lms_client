@@ -1,6 +1,144 @@
-.hi{
-    color: pink;
+body {
+  margin: 0;
+  padding: 0;
+
 }
-.me{
-    color: violet;
+.signup {
+  height: 400px;
+  width: 500px;
+  background-color: lightblue;
+  border: 2px solid black;
+  margin: 25px 25px 0px 100px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  gap: 15px;
+  border-radius: 10px;
+  box-shadow: -5px 5px 15px grey;
+}
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 95px 95px 0px 100px;
+  
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  gap: 10px;
+}
+.data input {
+  background-color: azure;
+  border-radius: 5px;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+}
+.but button {
+  background-color: blue;
+  border-radius: 5px;
+  
+}
+.inner {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  position: fixed;
+}
+.outer {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  position: fixed;
+}
+.logo-image {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+}
+.header-container {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-around;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.head-items {
+  display: flex;
+  color: blue;
+  gap: 25px;
+}
+.head-items li {
+  list-style: none;
+  font-size: 20px;
+  font-weight:bold;
+}
+.head-container{
+    display: flex;
+     
+    align-items: center;
+}
+.login-but button{
+    border-radius: 5px;
+    color:black;
+    background-color: aqua;
+} 
+.login-but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+}  
+.login-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  height: 400px;
+  width: 500px;
+  background-color: lightblue;
+  border: 2px solid black;
+  margin: 105px 105px 0px 100px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  gap: 15px;
+  border-radius: 10px;
+   box-shadow: -5px 5px 15px grey;
+}
+.login-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  gap: 10px;
+}
+.login-data input {
+  background-color:lightgoldenrodyellow;
+  border-radius: 5px;
+}
+.l-but{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color:black;
 }
